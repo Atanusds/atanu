@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("./herobanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    color: aliceblue;
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+}
+.hero-btn{
+    text-decoration:none;
+    color: aliceblue;
+    background: #000;
+    padding:10px 30px ;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.hero-btn:hover{
+    background: #fff;
+    color: #000;
+
+}
+
+a{
+    color:cadetblue;
+    text-decoration: none;
+    top:10px;
+    left:40px;
+    margin: 0 10px;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    
+    color: #fff;
+    margin-left: 300px;
+    font-size: 20px;
+    transition-duration: 0.4px;
+    letter-spacing: 0.5px;
+
+}
+.btn:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    
+    
+}
+.btn{
+    border-radius:10px ;
+    color: black;
+}
